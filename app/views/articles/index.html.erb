@@ -10,7 +10,10 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
+<%= cl_image_tag("kkngi8irz5xpvkcqvuky",
+      width: 400, height: 300, crop: :fill) %>
+      <%= cl_image_tag("mzrq9i4lf46zm6gbolbp",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
   <tbody>
     <% @articles.each do |article| %>
       <tr>
